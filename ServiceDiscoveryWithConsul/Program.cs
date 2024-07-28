@@ -17,9 +17,9 @@ app.MapGet("/", async (IHttpClientFactory httpClientFactory) =>
 
     return new
     {
-        response,
         logicalUrl,
-        physicalUrl = "The physical Url was resolved by Consul."
+        physicalUrl = "The physical Url was resolved by Consul.",
+        response
     };
 });
 
