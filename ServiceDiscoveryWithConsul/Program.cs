@@ -11,13 +11,15 @@ app.MapGet("/", async (IHttpClientFactory httpClientFactory) =>
 {
     var client = httpClientFactory.CreateClient("DiscoveryRandom");
 
-    var response = await client.GetStringAsync("http://SampleService/"); //will be resolved by Consul
+    var logicalUrl = "http://SampleService/"; //will be resolved by Consul
+
+    var response = await client.GetStringAsync(logicalUrl);
 
     return new
     {
         response,
-        LogicalUrl = "http://SampleService/",
-        PhysicalUrl = "The physical Url was resolved by Consul."
+        logicalUrl,
+        physicalUrl = "The physical Url was resolved by Consul."
     };
 });
 
