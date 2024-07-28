@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDiscoveryWithConsul", "ServiceDiscoveryWithConsul\ServiceDiscoveryWithConsul.csproj", "{B8DCE234-66AD-49DB-B23F-05BCF9A69930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleService", "SampleService\SampleService.csproj", "{82CA080F-96DA-4023-89DC-82162AB63321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8DCE234-66AD-49DB-B23F-05BCF9A69930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DCE234-66AD-49DB-B23F-05BCF9A69930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DCE234-66AD-49DB-B23F-05BCF9A69930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DCE234-66AD-49DB-B23F-05BCF9A69930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CA080F-96DA-4023-89DC-82162AB63321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CA080F-96DA-4023-89DC-82162AB63321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CA080F-96DA-4023-89DC-82162AB63321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CA080F-96DA-4023-89DC-82162AB63321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE579FDE-42B6-4003-AED9-6ECB15891B24}
+	EndGlobalSection
+EndGlobal
